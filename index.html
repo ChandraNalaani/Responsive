@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width" />
+<title>The first rule of Fight Club...</title>
+<!-- Included CSS Files -->
+<link rel="stylesheet" href="stylesheets/foundation.css">
+<link rel="stylesheet" href="stylesheets/app.css">
+<link rel="stylesheet" href="stylesheets/theme.css">
+<!--[if lt IE 9]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<!--[if IE]>
+     <style type="text/css">
+         .timer { display: none !important; }
+         div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+    </style>
+<![endif]-->
+<script src="javascripts/app.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- container -->
+<div class="container">
+  <!--header-->
+  <div class="row">
+    <div class="four columns">
+      <!--logo-->
+      <h2>Lorem Ipsum</h2>
+      <p>What all the fuss is about.</p>
+      <!--/logo-->
+    </div>
+    <!--/four columns-->
+    <div class="eight columns">
+      <!--nav-->
+      <ul class="nav-bar">
+        <li><a href="#">Nav Item 1</a></li>
+        <li class="has-flyout"><a href="#">Nav Item 2</a>
+          <div class="flyout small">
+            <h5>Small Example (200px)</h5>
+            <p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. </p>
+          </div>
+        </li>
+        <li class="has-flyout"><a href="#">Nav Item 3</a>
+          <div class="flyout"> Content... </div>
+        </li>
+        <li class="has-flyout"><a href="#">Nav Item 4</a>
+          <div class="flyout large right"> Content... </div>
+        </li>
+      </ul>
+      <!--/nav-->
+    </div>
+    <!--/eight columns-->
+    <hr />
+  </div>
+  <!--/row-->
+  <!--/header-->
+  <!--slider-->
+  <div class="row">
+    <div class="twelve columns">
+      <!--to do: stop after one cycle-->
+      <div id="featured"> <img src="images/placeholders/slider1.jpg" alt="slider img 1" data-caption="#caption1" /> <img src="images/placeholders/slider2.jpg" alt="slider img 2" data-caption="#caption2" /> <img src="images/placeholders/slider3.jpg" alt="slider img 3" data-caption="#caption3" /> </div>
+      <!-- Captions for Orbit -->
+      <span class="orbit-caption" id="caption1">I'm the first caption.</span> <span class="orbit-caption" id="caption2">I'm the second caption.</span> <span class="orbit-caption" id="caption3">I'm the third caption.</span>
+      <!--/featured-->
+      <hr />
+    </div>
+    <!--/twelve columns-->
+  </div>
+  <!--/row-->
+  <!--/slider-->
+  <!--features-->
+  <div class="row">
+    <div class="four columns">
+      <div class="panel"> <img src="images/placeholders/feature-thumb.jpg" alt="feature thumb" />
+        <h4>Feature 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="more"><a href="#">More &gt;</a></p>
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel"> <img src="images/placeholders/feature-thumb.jpg" alt="feature thumb" />
+        <h4>Feature 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="more"><a href="#">More &gt;</a></p>
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel"> <img src="images/placeholders/feature-thumb.jpg" alt="feature thumb" />
+        <h4>Feature 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="more"><a href="#">More &gt;</a></p>
+      </div>
+    </div>
+    <hr />
+  </div>
+  <!--/row-->
+  <!--/features-->
+  <!--testimonials-->
+  <div class="row">
+    <div class="twelve columns">
+      <blockquote>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <cite>- Whoever, Wherever</cite> </blockquote>
+    </div>
+    <!--/twelve columns-->
+    <hr />
+  </div>
+  <!--/row-->
+  <!--/testimonials-->
+  <!--footer widgets-->
+  <div class="row">
+    <div class="three columns">
+      <div class="panel">
+        <h5>Footer Widget 1</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="three columns">
+      <div class="panel">
+        <h5>Footer Widget 2</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="three columns">
+      <div class="panel">
+        <h5>Footer Widget 3</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="three columns">
+      <div class="panel">
+        <h5>Footer Widget 4</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <hr />
+  </div>
+  <!--/row-->
+  <!--/footer widgets-->
+  <!--bottomnav-->
+  <div class="row">
+    <div class="four columns">
+      <p>Copyright &copy; 2012 Company Name.</p>
+    </div>
+    <!--/four columns-->
+    <div class="eight columns">
+      <ul id="bottom-nav">
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div><!--/eight columns-->
+</div>
+<!--/row-->
+<!--/bottomnav-->
+</div>
+<!-- container -->
+<!-- Included JS Files -->
+<script src="javascripts/foundation.js"></script>
+<script src="javascripts/app.js"></script>
+</body>
+</html>
